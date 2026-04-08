@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- THE FIX: Hide the scrollbar globally --- */
+
+/* For Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  background: transparent;
+}
+
+/* For Firefox and IE */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+/* ------------------------------------------- */
+
+body {
+  background-color: #0c0101; 
+  color: #ffffff;
+  margin: 0;
+  font-family: sans-serif;
+  /* Always keep this to prevent horizontal scroll bugs from GSAP */
+  overflow-x: hidden; 
+}
+
+/* Custom Animation for the Button Shine (from the Hero section) */
+@keyframes shine {
+  100% {
+    transform: translateX(100%) skew(-45deg);
+  }
+}
