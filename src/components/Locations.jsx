@@ -16,7 +16,26 @@ const locationsData = [
   { id: "09", name: "Midnight Drip", city: "Noir District", address: "77 Shadow Lane", hours: "Open 24/7", vibe: "Moody & Underground", image: "https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=2000&auto=format&fit=crop", coords: "52.5200° N, 13.4050° E" },
   { id: "10", name: "Harbor Lights", city: "Seaside Port", address: "9 Dockside Pier", hours: "Mon-Sun: 8AM - 8PM", vibe: "Breezy & Nautical", image: "https://images.unsplash.com/photo-1507133750040-4a8f57021571?q=80&w=2000&auto=format&fit=crop", coords: "36.1699° N, 115.1398° W" },
   { id: "11", name: "The Copper Cup", city: "Founders Sq", address: "14 Legacy Road", hours: "Tue-Sun: 7AM - 5PM", vibe: "Rustic & Vintage", image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=2000&auto=format&fit=crop", coords: "40.4406° N, 79.9959° W" },
-  { id: "12", name: "Zenith Lounge", city: "Skyline", address: "Penthouse 5, Aurora Tower", hours: "Mon-Fri: 9AM - 9PM", vibe: "Luxury & Modern", image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2000&auto=format&fit=crop", coords: "25.7617° N, 80.1918° W" }
+  { id: "12", name: "Zenith Lounge", city: "Skyline", address: "Penthouse 5, Aurora Tower", hours: "Mon-Fri: 9AM - 9PM", vibe: "Luxury & Modern", image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2000&auto=format&fit=crop", coords: "25.7617° N, 80.1918° W" },
+  { id: "13", name: "Aurora Beans", city: "Northern Quarter", address: "5 Polar Street", hours: "Mon-Sun: 6AM - 8PM", vibe: "Cool & Ambient", image: "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?q=80&w=2000&auto=format&fit=crop", coords: "59.9139° N, 10.7522° E" },
+
+{ id: "14", name: "Crimson Cup", city: "Redwood District", address: "88 Maple Drive", hours: "Mon-Fri: 7AM - 7PM", vibe: "Bold & Artistic", image: "https://images.unsplash.com/photo-1498804103079-a6351b050096?q=80&w=2000&auto=format&fit=crop", coords: "45.5152° N, 122.6784° W" },
+
+{ id: "15", name: "The Daily Grind", city: "Central Hub", address: "120 Transit Plaza", hours: "Mon-Sun: 5AM - 11PM", vibe: "Fast & Functional", image: "https://images.unsplash.com/photo-1442512595331-e89e73853f31?q=80&w=2000&auto=format&fit=crop", coords: "51.1657° N, 10.4515° E" },
+
+{ id: "16", name: "Caffeine Corner", city: "Suburbia", address: "44 Elm Street", hours: "Mon-Sat: 6AM - 6PM", vibe: "Casual & Friendly", image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=2000&auto=format&fit=crop", coords: "39.7392° N, 104.9903° W" },
+
+{ id: "17", name: "Mocha Mirage", city: "Desert Oasis", address: "7 Sand Dune Road", hours: "Mon-Sun: 8AM - 10PM", vibe: "Exotic & Relaxed", image: "https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=2000&auto=format&fit=crop", coords: "24.4539° N, 54.3773° E" },
+
+{ id: "18", name: "The Steam Room", city: "Industrial Park", address: "300 Factory Lane", hours: "Mon-Fri: 6AM - 5PM", vibe: "Raw & Industrial", image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=2000&auto=format&fit=crop", coords: "55.7558° N, 37.6173° E" },
+
+{ id: "19", name: "Bean Boulevard", city: "Uptown", address: "89 Grand Avenue", hours: "Mon-Sun: 7AM - 9PM", vibe: "Trendy & Social", image: "https://images.unsplash.com/photo-1521302080371-6a3aeb0b97b8?q=80&w=2000&auto=format&fit=crop", coords: "40.7306° N, 73.9352° W" },
+
+{ id: "20", name: "Espresso Haven", city: "Quiet Hills", address: "12 Serenity Lane", hours: "Tue-Sun: 8AM - 6PM", vibe: "Peaceful & Scenic", image: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?q=80&w=2000&auto=format&fit=crop", coords: "46.2276° N, 2.2137° E" },
+
+{ id: "21", name: "Urban Pulse Café", city: "Metro City", address: "500 City Square", hours: "Mon-Fri: 6AM - 10PM", vibe: "Energetic & Modern", image: "https://images.unsplash.com/photo-1507133750040-4a8f57021571?q=80&w=2000&auto=format&fit=crop", coords: "35.6895° N, 139.6917° E" },
+
+{ id: "22", name: "The Roasted Leaf", city: "Garden District", address: "21 Blossom Street", hours: "Wed-Sun: 7AM - 4PM", vibe: "Fresh & Green", image: "https://images.unsplash.com/photo-1445116572660-236099ec97a0?q=80&w=2000&auto=format&fit=crop", coords: "1.3521° N, 103.8198° E" }
 ];
 
 const Locations = () => {
